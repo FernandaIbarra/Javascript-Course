@@ -86,18 +86,6 @@ function getCredentials(){
 // Ejercicio 6
 console.log("%cEjercicio 6 | Session 2", "color:#C78283");
 
-// let loginWitUsername = (username, password) => {
-//     return new Promise(function (resolve, rejected) {
-//       setTimeout(() => {
-//         if (username === "admin" && password === "passwd") {
-//           resolve("User logged in");
-//         } else {
-//           rejected("Error: invalid username or password");
-//         }
-//       }, 200);
-//     });
-// };
-
 const good = document.getElementById('loginSuccessAsync');
 const bad = document.getElementById('loginFailureAsync');
 const loginWitUsername = (username, password) => {
